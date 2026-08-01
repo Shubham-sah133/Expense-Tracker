@@ -25,6 +25,18 @@ def viewAllExpense():
     for expense in expenses:
         print(expense)
 
+def viewTotalSpending():
+    total = 0
+
+    for expense in expenses:
+        total += expense["amount"]
+
+    print("\n========================")
+    print("💰 Total Spending")
+    print("========================")
+    print(f"Total Expenses: ₹{total}")
+    print("========================")
+
         
         
 
