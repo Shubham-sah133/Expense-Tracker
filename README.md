@@ -1,2 +1,17 @@
-# Expense-Tracker
-A Python-based Expense Tracker CLI application that allows users to add, view, update, and delete expenses. Built as a hands-on project to practice Python fundamentals, file handling, exception handling, and CRUD operations.
+# 💸 Expense Tracker
+
+## Features
+- Add Expense
+- View All Expenses
+- View Total Spending
+
+## Tech Stack
+- Python
+- JSON
+
+## Future Improvements
+- Date validation
+- Delete expense
+- Edit expense
+- Search by category
+- Monthly report
