@@ -37,7 +37,12 @@ def viewTotalSpending():
     print(f"Total Expenses: ₹{total}")
     print("========================")
 
-        
-        
+while True:
+    print("\n Welcome to Expense Tracker: 💸\n")
+    print("======= MENU =======")
+    print("1 Add Expense: ")
+    print("2 View All Expense: ")
+    print("3 View total spending: ")
+    print("4 Exit: \n")
 
     
