@@ -45,4 +45,14 @@ while True:
     print("3 View total spending: ")
     print("4 Exit: \n")
 
-    
+    match choice:
+        case 1:
+            addExpense()
+        case 2:
+            viewAllExpense()    
+        case 3:
+            viewTotalSpending()
+        case 4:
+            break
+        case _:
+            print("\n Invalid choice")
