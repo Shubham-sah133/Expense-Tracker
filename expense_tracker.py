@@ -21,7 +21,10 @@ def addExpense():
 
     print("✅ Expense added Successfully: ")
 
-   
+def viewAllExpense():
+    for expense in expenses:
+        print(expense)
+
         
         
 
